@@ -1,0 +1,58 @@
+2022-02-04 15:56:50,121 INFO [main] INFO  c.e.d.ProductManageSiteServiceForHandsOnApplication - Starting ProductManageSiteServiceForHandsOnApplication on WIN-R1II59KH0BU with PID 10988 (C:\udemy\angular\api\ProductManageService-1.0.0.war started by User in C:\udemy\angular\api)
+2022-02-04 15:56:50,121 INFO [main] INFO  c.e.d.ProductManageSiteServiceForHandsOnApplication - No active profile set, falling back to default profiles: default
+2022-02-04 15:56:53,593 INFO [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-04 15:56:53,593 INFO [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-04 15:56:53,593 INFO [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-04 15:56:55,241 INFO [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-04 15:56:55,241 INFO [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4995 ms
+2022-02-04 15:56:56,678 INFO [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/*'], []
+2022-02-04 15:56:56,678 INFO [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/assets/i18n/*'], []
+2022-02-04 15:56:56,740 INFO [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67110f71, org.springframework.security.web.context.SecurityContextPersistenceFilter@5bcb04cb, org.springframework.security.web.header.HeaderWriterFilter@40298285, org.springframework.security.web.csrf.CsrfFilter@11e33bac, org.springframework.security.web.authentication.logout.LogoutFilter@4f4c789f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2f04105, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fc2a205, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58a63629, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f89292e, org.springframework.security.web.session.SessionManagementFilter@5b498842, org.springframework.security.web.access.ExceptionTranslationFilter@2dddc1b9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c808207]
+2022-02-04 15:56:56,772 INFO [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-04 15:56:56,975 INFO [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-04 15:56:57,272 INFO [main] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2022-02-04 15:56:57,303 INFO [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-04 15:56:57,693 INFO [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-04 15:56:57,725 INFO [main] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:h2:file:./h2db/sampledb (H2 1.4)
+2022-02-04 15:56:57,771 WARN [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2022-02-04 15:56:57,834 INFO [main] INFO  o.f.c.internal.command.DbValidate - Successfully validated 3 migrations (execution time 00:00.039s)
+2022-02-04 15:56:57,850 INFO [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": 3
+2022-02-04 15:56:57,850 INFO [main] INFO  o.f.core.internal.command.DbMigrate - Schema "PUBLIC" is up to date. No migration necessary.
+2022-02-04 15:56:57,975 INFO [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-04 15:56:58,006 INFO [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-04 15:56:58,084 INFO [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-04 15:56:58,412 INFO [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-04 15:56:58,428 INFO [main] INFO  c.e.d.ProductManageSiteServiceForHandsOnApplication - Started ProductManageSiteServiceForHandsOnApplication in 9.299 seconds (JVM running for 10.314)
+2022-02-04 15:59:03,886 INFO [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-04 15:59:03,887 INFO [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-04 15:59:03,911 INFO [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2022-02-04 15:59:04,260 WARN [http-nio-8080-exec-3] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [265] milliseconds.
+2022-02-04 20:12:39,139 INFO [main] INFO  c.e.d.ProductManageSiteServiceForHandsOnApplication - Starting ProductManageSiteServiceForHandsOnApplication on WIN-R1II59KH0BU with PID 3664 (C:\udemy\angular\api\ProductManageService-1.0.0.war started by User in C:\udemy\angular\api)
+2022-02-04 20:12:39,146 INFO [main] INFO  c.e.d.ProductManageSiteServiceForHandsOnApplication - No active profile set, falling back to default profiles: default
+2022-02-04 20:12:42,653 INFO [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-04 20:12:42,672 INFO [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-04 20:12:42,672 INFO [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-04 20:12:44,305 INFO [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-04 20:12:44,305 INFO [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5007 ms
+2022-02-04 20:12:45,910 INFO [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/*'], []
+2022-02-04 20:12:45,910 INFO [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/assets/i18n/*'], []
+2022-02-04 20:12:45,968 INFO [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60acd609, org.springframework.security.web.context.SecurityContextPersistenceFilter@d5ce97f, org.springframework.security.web.header.HeaderWriterFilter@1023150a, org.springframework.security.web.csrf.CsrfFilter@385e36d4, org.springframework.security.web.authentication.logout.LogoutFilter@62566842, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7b4acdc2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e3994ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@724c5cbe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65ec8b24, org.springframework.security.web.session.SessionManagementFilter@1b7cae6f, org.springframework.security.web.access.ExceptionTranslationFilter@56ac5c80, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2264e43c]
+2022-02-04 20:12:46,004 INFO [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-04 20:12:46,225 INFO [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-04 20:12:46,544 INFO [main] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2022-02-04 20:12:46,563 INFO [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-04 20:12:46,993 INFO [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-04 20:12:47,036 INFO [main] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:h2:file:./h2db/sampledb (H2 1.4)
+2022-02-04 20:12:47,081 WARN [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2022-02-04 20:12:47,147 INFO [main] INFO  o.f.c.internal.command.DbValidate - Successfully validated 3 migrations (execution time 00:00.038s)
+2022-02-04 20:12:47,174 INFO [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": 3
+2022-02-04 20:12:47,175 INFO [main] INFO  o.f.core.internal.command.DbMigrate - Schema "PUBLIC" is up to date. No migration necessary.
+2022-02-04 20:12:47,320 INFO [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-04 20:12:47,352 INFO [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-04 20:12:47,420 INFO [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-04 20:12:47,783 INFO [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-04 20:12:47,789 INFO [main] INFO  c.e.d.ProductManageSiteServiceForHandsOnApplication - Started ProductManageSiteServiceForHandsOnApplication in 9.725 seconds (JVM running for 10.573)
+2022-02-04 20:15:37,624 INFO [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-04 20:15:37,624 INFO [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-04 20:15:37,652 INFO [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+2022-02-04 20:15:58,875 WARN [http-nio-8080-exec-3] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [301] milliseconds.
